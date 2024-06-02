@@ -1,10 +1,8 @@
 
-
-
 public class Pattern {
     public static void main(String[] args) {
 
-//Qestion 1: Solid Rectangle 
+        // Qestion 1: Solid Rectangle
 
         // this is nested loop concept because external loop contains another loop
         // outer loop
@@ -16,7 +14,7 @@ public class Pattern {
         // System.out.println();
         // }
 
- //Question 2: print the hollow pattern of Star(*)
+        // Question 2: print the hollow pattern of Star(*)
 
         // int m=sc.nextInt();
         // for(int i=0;i<=n-1;i++)
@@ -31,14 +29,23 @@ public class Pattern {
         // System.out.println();
         // }
 
-// Question 3: print inverted Half Pyramid pattern of Star(*) 
+        // Question 3: print Half Pyramid pattern of Star(*):-
+        // int n = 4;
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println();
+        // }
+
+        // Question 4: print inverted Half Pyramid pattern of Star(*) :-
 
         // int n = 4;
         // for (int i = n; i >= 1; i--) {
-        //     for (int j = 1; j <= i; j++) {
-        //         System.out.print("*");
-        //     }
-        //     System.out.println(" ");
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print("*");
+        // }
+        // System.out.println(" ");
         // }
 
     }
